@@ -93,7 +93,8 @@
 				<article class="card-top ">
 					<a class="card-link " data-event-label="207589348" href="http://localhost:8080/post/${post.id}">
 						<div class="card-photo ">
-							<img alt="${post.title}" src="${post.imgsrc}">
+							<%-- <img alt="${post.title}" src="${post.imgsrc}"> --%>
+							<img alt="${post.title}" src="https://firebasestorage.googleapis.com/v0/b/daangnappchat.appspot.com/o/images%2F20210421_3020content%3A%2Fmedia%2Fexternal%2Fimages%2Fmedia%2F15815.png?alt=media&token=fa494482-3844-49a8-a65c-26eac2c550e5">
 						</div>
 						<div class="card-desc">
 							<h2 class="card-title">${post.title }</h2>

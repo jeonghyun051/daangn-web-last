@@ -125,7 +125,7 @@
 	</div>
 </section>
 <section id="hot-articles-go-download">
-	<h3>대구광역시 마켓을 더 구경하고 싶나요?</h3>
+	<h3>${key} 마켓을 더 구경하고 싶나요?</h3>
 	<p>당근마켓 앱에서 따뜻한 거래를 직접 경험해보세요!</p>
 	<div id="hot-articles-download-buttons">
 		<a target="_blank" class="download-button"

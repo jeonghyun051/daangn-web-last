@@ -46,7 +46,7 @@
 	<h1 property="schema:name" id="article-title" style="margin-top: 0px;">${post.title}</h1>
 	<p id="article-category">
 		디지털/가전 ∙
-		<time> ${post.createDate} </time>
+		<time><fmt:formatDate value="${post.createDate}" pattern="yyyy.MM.dd"/></time>
 	</p>
 	<p property="schema:priceValidUntil" datatype="xsd:date" content="2023-03-18"></p>
 	<p rel="schema:url" resource="https://www.daangn.com/208257028"></p>
